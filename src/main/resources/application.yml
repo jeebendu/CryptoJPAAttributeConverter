@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: pii-encrypt-demo
+    
+  datasource:
+    driver-class-name:  com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?zeroDateTimeBehavior=convertToNull
+    username: root
+    password: root@123
+
+server:
+  port: 8080
+
+aes: 
+  key: 5uvhOcociNBnauwmFzPhW9a3auMewY7I
